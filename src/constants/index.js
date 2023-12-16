@@ -19,6 +19,7 @@ import {
   starbucks,
   tesla,
   shopify,
+  liveLink,
   carrent,
   jobit,
   tripguide,
@@ -122,12 +123,13 @@ const experiences = [
     company_name: "Degen Money",
     icon: Degen,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "June 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+     "Developed the whole trading platfrom from scratch",
+     " Collaborated with design and backend teams to implement UI/UX designs and integrate APIs.",
+    " Streamlined UI for user-friendly and accessible trading experiences.",
+      "Contributed to code reviews and adhered to established coding standards.",
+
     ],
   },
   {
@@ -135,12 +137,12 @@ const experiences = [
     company_name: "Studiobyprithviraj",
     icon: studiobyprithviraj,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "March 2023 - April 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Optimized e-commerce site, resolving 10+ bugs.",
+      "Implemented 5+ new website functionalities.",
+      "Successfully uploaded 50+ products, ensuring accuracy.",
+      "Enhanced website performance through meticulous maintenance.",
     ],
   },
 ];
@@ -176,10 +178,10 @@ const projects = [
   {
     name: "Resume Builder (Working)",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "I am crafting a dynamic and responsive resume builder in React, incorporating AI for personalized content suggestions. Utilizing Firebase ensures seamless data management and real-time updates. Additionally, I am developing a system generating dynamic portfolios from user resumes.",
     tags: [
       {
-        name: "react",
+        name: "reactJs",
         color: "blue-text-gradient",
       },
       {
@@ -187,7 +189,7 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Bootstrap",
         color: "pink-text-gradient",
       },
       {
@@ -196,50 +198,52 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_live_link: "https://resume-builder-fd3ff.web.app/my-resume",
+    source_code_link: "https://github.com/Energizer-Bunny/resume-builder-website",
   },
   {
     name: "Admin Dashboard",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "I engineered a robust admin interface tailored for the e-commerce sector, integrating key metrics, sales data, and transactions through interactive charts. The implementation included features highlighting total revenue, sales insights, and order statistics. Additionally, I focused on identifying and highlighting top-selling cities to facilitate strategic decision-making processes.",
     tags: [
       {
-        name: "react",
+        name: "reactJS",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Tailwind CSS",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Charts",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
-    // https://kwiz-app-1212.netlify.app/
+    source_live_link: "https://admin-dashboard1212.netlify.app/",
+    source_code_link: "https://github.com/DEV-SHUKLA-GITHUB/Admin-Dashboard",
   },
   {
     name: "Kwiz: The Quiz App",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "I crafted a sophisticated quiz application, featuring diverse subject categories include sports , movies ,coding and General quiz , to provide a multifaceted learning experience. Incorporating sophisticated time-tracking features ensured precise user assessments, while meticulous time calculations enhanced the accuracy of quiz evaluations, offering users a comprehensive and refined educational platform.",
     tags: [
       {
-        name: "nextjs",
+        name: "HTML",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "CSS",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "JavaScript",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_live_link: "https://kwiz-app-1212.netlify.app/",
+    source_code_link: "https://github.com/DEV-SHUKLA-GITHUB/Quiz-App-Project",
   },
 ];
 
